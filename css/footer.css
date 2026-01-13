@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*** footer.css ***/
+
+footer {
+    background-color: #FAFAFA;
+}
+footer .footer-inner {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.footer-top {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.footer-top .footer-logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer-top .footer-logo img {
+    display: block;
+    width: 100%;
+}
+
+.footer-top .footer-links {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+.footer-top .footer-links a {
+    display: block;
+    padding-right: 25px;
+
+    float: left;
+
+    position: relative; /* 가상요소 after의 기준 */
+}
+.footer-top .footer-links a::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 28px;
+    background-color: #333;
+
+    position: absolute;
+    top: 4px;
+    left: -12px;
+}
+.footer-top .footer-links a:first-child::after {
+    display: none;
+}
+
+.footer-bottom {
+    position: relative; /* .sns의 기준 */
+}
+.footer-bottom .left {
+    float: left;
+}
+.footer-bottom .left p {
+    font-size: 20px;
+    color: #555;
+}
+.footer-bottom .left p span {
+    font-size: 22px;
+    font-weight: 600;
+}
+.footer-bottom .left p.copyright {}
+
+.footer-bottom .right {
+    float: right;
+}
+
+.footer-bottom .right .customer-service {
+    text-align: right;
+}
+.customer-service h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+}
+.customer-service p {
+    color: #555;
+    font-size: 20px;
+}
+.customer-service p.phone {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer-bottom .right .sns {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    /* outline: 3px solid red; */
+}
+.footer-bottom .right .sns a {
+    padding-left: 16px;
+    float: left;
+}
+.footer-bottom .right .sns a img {
+    display: block;
+    width: 100%;
+}

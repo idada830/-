@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/*** index.css ***/
+
+main {
+    margin-top: 50px;
+}
+
+main video {
+    width: 100%;
+}
+
+
+
+section {}
+
+.brand {
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px auto;
+}
+
+.brand .line {}
+
+.brand .line img {}
+
+.brand-wrapper {
+    margin: 50px;
+    text-align: center;
+}
+
+.brand-wrapper .romand {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.brand-wrapper .romand span {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.brand-wrapper .story {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+.brand-wrapper .story span {
+    color: #F28D9F;
+}
+
+.brand-wrapper a {
+    margin: 0 auto;
+}
+
+
+
+.pink-office {
+    position: relative;
+    /* .left, .right의 기준 */
+    margin-bottom: 150px;
+}
+
+.pink-office .title {
+    margin-top: 80px;
+}
+
+.pink-office .left {
+    width: 1384px;
+    height: 960px;
+    border-top-right-radius: 100px;
+    background-color: #FFCAD4;
+
+    float: left;
+}
+
+.pink-office .left .explain {
+    position: absolute;
+    top: 30%;
+    padding-left: 360px;
+}
+
+.pink-office .left .slogan {
+    font-size: 62px;
+    font-weight: 800;
+    padding-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+.pink-office .left .slogan span {
+    background-color: #F28D9F;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 62px;
+    font-weight: 800;
+}
+
+.pink-office .left .txt {
+    font-size: 32px;
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.pink-office .left .txt span {
+    font-weight: 600;
+    color: #000;
+}
+
+.pink-office .left a {}
+
+.pink-office .right {
+    width: 1100px;
+    height: 780px;
+
+    float: right;
+
+    position: absolute;
+    bottom: 0;
+    left: 820px;
+}
+
+.pink-office .right a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.pink-office .right a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 100px;
+}
+
+
+
+.lookbook {
+    margin-bottom: 150px;
+}
+
+.lookbook-wrap {
+    position: relative;
+    /* 꾸며주는 요소 기준 */
+}
+
+.lookbook-wrap .content {
+    width: 1200px;
+    margin: 0 auto;
+
+    /* outline: 1px solid red; */
+}
+
+.lookbook-wrap .content .left {
+    float: left;
+    margin-right: 10px;
+}
+
+.lookbook-wrap .content .left a {
+    display: block;
+}
+
+.lookbook-wrap .content .left a img {
+    display: block;
+}
+
+.lookbook-wrap .content .right {
+    width: 590px;
+    height: 758px;
+
+    float: left;
+
+    /* outline: 1px solid red; */
+}
+
+.lookbook-wrap .content .right ul {}
+
+.lookbook-wrap .content .right ul li {
+    float: left;
+}
+
+.lookbook-wrap .content .right ul li:first-child {
+    padding: 0 10px 10px 0;
+}
+
+.lookbook-wrap .content .right ul li:nth-child(2) {
+    padding: 0 0 10px 0;
+}
+
+.lookbook-wrap .content .right ul li:nth-child(3) {
+    padding-right: 10px;
+}
+
+.lookbook-wrap .content .right ul li a {
+    display: block;
+}
+
+.lookbook-wrap .content .right ul li a img {
+    display: block;
+}
+
+.lookbook-wrap .deco1 {
+    position: absolute;
+    top: 72px;
+    left: 194px;
+}
+
+.lookbook-wrap .deco2 {
+    position: absolute;
+    top: 243px;
+    left: 190px;
+}
+
+.lookbook-wrap .deco3 {
+    position: absolute;
+    top: -155px;
+    right: 606px;
+}
+
+.lookbook-wrap .deco4 {
+    position: absolute;
+    top: 244px;
+    right: 162px;
+}
+
+.lookbook-wrap .deco5 {
+    position: absolute;
+    bottom: 0;
+    right: 158px;
+}
+
+
+
+.event {
+    margin-bottom: 150px;
+}
+
+
+
+.instagram {
+    margin-bottom: 100px;
+}
+.instagram .title a {
+    display: block;
+}
+.instagram .title a img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.instagram-wrap {
+    /* width: 4330px; */
+
+    width: 100%;
+    
+}
+.instagram-wrap .content {
+    width: 100%;
+    margin-bottom: 60px;
+
+    overflow: hidden;
+}
+.instagram-wrap .content ul {
+    width: 215%;
+
+    /* background-color: plum; */
+}
+.instagram-wrap .content ul li {
+    padding-right: 10px;
+    /* margin-right: 10px; */
+    float: left;
+    width: 7.14%;
+    box-sizing: border-box;
+
+    /* outline: 1px solid red; */
+}
+.instagram-wrap .content ul li:last-child {
+    padding: 0;
+}
+.instagram-wrap .content ul li a {
+    display: block;
+}
+.instagram-wrap .content ul li a img {
+    display: block;
+    width: 100%;
+}
+
+.scroll {
+    width: 1200px;
+    height: 25px;
+    margin: 0 auto;
+    background-color: #ddd;
+
+    position: relative; /* .bar의 기준 */
+}
+.scroll .bar {
+    width: 300px;
+    height: 100%;
+    background-color: #444;
+
+    position: absolute;
+    left: 0;
+}
